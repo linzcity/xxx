@@ -6,6 +6,7 @@
 
 var myLine, myPie, myBar;
 
+// 适应屏幕比例变化
 window.onresize = function () {
     myLine.resize();
     myPie.resize();
